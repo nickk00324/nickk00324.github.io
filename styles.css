@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat-bold';
+}
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100
+}
+
+.main-head{
+  padding: 50px;
+  font-size: 3vw;
+  text-align:center;
+  color: lightpink;
+}
+
+.link-row{
+  margin-top: 30px;
+  padding: 20px;
+  color: lightpink;
+  font-size: 18px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+img{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.social{
+  text-align:center;
+  font-size: 30px;
+  padding-top: 60px;
+  color: lightpink;
+}
+
+.icon{
+  margin: 0 10px;
+}
+
+a{
+  color: lightpink;
+}
+
+a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+  .main-head{
+    font-size: 2rem;
+  }
+
+  .social{
+    padding-top: 0px;
+  }
+}
